@@ -1,0 +1,21 @@
+{
+  "name": "elixir-theme",
+  "displayName": "Elixir Theme",
+  "description": "Color theme for Elixir",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "elixir-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/elixir-theme-color-theme.json"
+      }
+    ]
+  }
+}
